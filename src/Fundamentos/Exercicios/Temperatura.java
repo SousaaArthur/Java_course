@@ -1,4 +1,5 @@
-package Fundamentos;
+package Fundamentos.Exercicios;
+
 import java.util.Scanner;
 
 public class Temperatura {
