@@ -1,3 +1,4 @@
+package Fundamentos;
 public class OperadoresTernario {
   public static void main(String[] args) {
     double media = 4.6;
