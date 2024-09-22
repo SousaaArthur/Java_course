@@ -1,4 +1,4 @@
-package Classes;
+package ClassesEMetodos;
 
 public class DataTeste {
   public static void main(String[] args) {
@@ -12,7 +12,9 @@ public class DataTeste {
     d2.mes = 5;
     d2.ano = 2004;
 
-    System.out.printf("%d/%d/%d", d1.dia, d1.mes, d1.ano);
-    System.out.printf("\n%d/%d/%d", d2.dia, d2.mes, d2.ano);
+    String date1 = d1.dateFormatted();
+    System.out.println(date1);
+    String date2 = d2.dateFormatted();
+    System.out.println(date2);
   }
 }
