@@ -2,12 +2,9 @@ package ClassesEMetodos;
 
 public class ProdutoTeste {
   public static void main(String[] args) {
-    Produto p1 = new Produto();
-    p1.name = "Notebook";
-    p1.price = 4356.89;
-    p1.discount = 0.25;
-    var p2 = new Produto();
+    Produto p1 = new Produto("Notebook", 4356.89, 0.25);
 
+    var p2 = new Produto();  
     p2.name = "Iphone 16";
     p2.price = 15899.99;
     p2.discount = 0.29;
