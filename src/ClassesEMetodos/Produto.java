@@ -5,10 +5,6 @@ public class Produto {
   double price;
   double discount;
 
-  Produto(String nameInitial) {
-    name = nameInitial;
-  }
-
   Produto(String nameInitial, double priceInitial, double discountInitial) {
     name = nameInitial;
     price = priceInitial;
