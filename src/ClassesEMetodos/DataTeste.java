@@ -2,7 +2,7 @@ package ClassesEMetodos;
 
 public class DataTeste {
   public static void main(String[] args) {
-    Data d1 = new Data(2, 5, 2004);
+    Data d1 = new Data(2, 4, 2004);
 
     Data d2 = new Data();
     d2.dia = 2;
