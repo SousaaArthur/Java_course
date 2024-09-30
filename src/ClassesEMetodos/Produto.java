@@ -3,12 +3,11 @@ package ClassesEMetodos;
 public class Produto {
   String name;
   double price;
-  double discount;
+  static double discount = 0.25;
 
-  Produto(String nameInitial, double priceInitial, double discountInitial) {
+  Produto(String nameInitial, double priceInitial) {
     name = nameInitial;
     price = priceInitial;
-    discount = discountInitial;
   }
   
   Produto() {
@@ -19,7 +18,7 @@ public class Produto {
   }
 
   double precoComDesconto(double descontoDoGerente) {
-    return price * (1 - discount + descontoDoGerente);
+    return price * (1 - (discount + descontoDoGerente));
   }
 
 }
