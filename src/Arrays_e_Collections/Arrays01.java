@@ -26,7 +26,7 @@ public class Arrays01 {
     int totalB = 0;
     for(int i = 0; i < notasAlunoB.length; i++){
       totalB += notasAlunoB[i];
-    }
+    } 
 
     System.out.println(totalB / notasAlunoB.length);
   }
