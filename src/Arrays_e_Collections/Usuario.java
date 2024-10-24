@@ -1,4 +1,4 @@
-package ClassesEMetodos;
+package Arrays_e_Collections;
 
 public class Usuario {
 
