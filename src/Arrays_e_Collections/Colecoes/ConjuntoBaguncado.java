@@ -39,7 +39,7 @@ public class ConjuntoBaguncado {
     System.out.println(conjunto);
 
     conjunto.addAll(nums); // União entre dois conjuntos
-    conjunto.retainAll(nums);
+    conjunto.retainAll(nums); // Interseção entre dois conjuntos
 
     conjunto.clear();
     System.out.println(conjunto);
