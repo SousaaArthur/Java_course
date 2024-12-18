@@ -1,4 +1,4 @@
-package ooComposicao;
+package POO.Composicao;
 
 public class Carro {
 

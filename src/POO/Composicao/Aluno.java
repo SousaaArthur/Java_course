@@ -1,4 +1,4 @@
-package ooComposicao;
+package POO.Composicao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,8 +29,5 @@ public class Aluno {
     }
     return null;
   }
-
-  
-  
 }
 
