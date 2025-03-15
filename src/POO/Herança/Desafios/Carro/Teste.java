@@ -1,9 +1,9 @@
-package POO.Herança.Desafios;
+package POO.Herança.Desafios.Carro;
 
 public class Teste {
   public static void main(String[] args) {
     System.out.println("CARRO GENÉRICO");
-    Carro c1 = new Carro();
+    Carro c1 = new Carro(20);
     c1.acelerar();
     c1.acelerar();
     c1.acelerar();
@@ -17,7 +17,7 @@ public class Teste {
     System.out.println("Velocidade: " + c1.vel + "km");
 
     System.out.println("\nHONDA CIVIC");
-    Civic civic = new Civic();
+    Civic civic = new Civic(30);
     civic.acelerar();
     civic.acelerar();
     System.out.println("Velocidade: " + civic.vel + "km");
@@ -30,7 +30,7 @@ public class Teste {
     System.out.println("Velocidade: " + civic.vel + "km");
 
     System.out.println("\nFERRARI");
-    Ferrari ferrari = new Ferrari();
+    Ferrari ferrari = new Ferrari(50);
     ferrari.acelerar();
     ferrari.acelerar();
     System.out.println("Velocidade: " + ferrari.vel + "km");
