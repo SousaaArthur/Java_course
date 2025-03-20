@@ -2,11 +2,11 @@ package POO.Herança.Desafios.Carro;
 
 public class Civic extends Carro {
 
-  Civic(){
+  public Civic(){
     this(289);
   }
 
-  Civic(int velMax){
+  public Civic(int velMax){
     super(velMax);
   }
   

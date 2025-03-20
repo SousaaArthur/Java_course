@@ -2,11 +2,11 @@ package POO.Herança.Desafios.Carro;
 
 public class Ferrari extends Carro{
 
-  Ferrari(){
+  public Ferrari(){
     this(315);
   }
 
-  Ferrari(int velMax){
+  public Ferrari(int velMax){
     super(velMax);
   }
 

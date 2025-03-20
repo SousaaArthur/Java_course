@@ -1,4 +1,8 @@
-package POO.Herança;
+package POO.Herança.Teste;
+
+import POO.Herança.Direcao;
+import POO.Herança.Heroi;
+import POO.Herança.Monstro;
 
 public class jogo {
   public static void main(String[] args) {

@@ -1,6 +1,10 @@
-package POO.Herança.Desafios.Carro;
+package POO.Herança.Teste;
 
-public class Teste {
+import POO.Herança.Desafios.Carro.Carro;
+import POO.Herança.Desafios.Carro.Civic;
+import POO.Herança.Desafios.Carro.Ferrari;
+
+public class Teste{
   public static void main(String[] args) {
     System.out.println("CARRO GENÉRICO");
     Carro c1 = new Carro(20);

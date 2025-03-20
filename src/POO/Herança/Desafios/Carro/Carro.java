@@ -2,11 +2,11 @@ package POO.Herança.Desafios.Carro;
 
 public class Carro {
 
-  final int VEL_MAX;
-  int vel = 0;
-  int delta = 5;
+  public final int VEL_MAX;
+  public int vel = 0;
+  public int delta = 5;
 
-  Carro(int velMax){
+  public Carro(int velMax){
     VEL_MAX = velMax;
   }
 
